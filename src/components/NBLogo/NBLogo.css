@@ -1,2 +1,18 @@
 /* Base class for NBLogo */
-.NBLogo--wrapper {}
+.NBLogo--wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+}
+
+.NBLogo--wrapper > h1 {
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #ffffff;
+}
